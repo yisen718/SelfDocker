@@ -1,0 +1,3 @@
+[submodule "openjdk8/wait-for-it"]
+	path = openjdk8/wait-for-it
+	url = https://github.com/vishnubob/wait-for-it.git

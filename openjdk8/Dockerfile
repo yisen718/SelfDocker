@@ -7,6 +7,6 @@ LABEL version="1.0"
 LABEL source="https://github.com/yisen718/SelfDocker.git"
 
 
-ADD wait-for-it.sh /usr/share/wait-for-it.sh
+ADD wait-for-it/wait-for-it.sh /usr/share/wait-for-it.sh
 
 RUN apk update && apk add bash
